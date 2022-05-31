@@ -1,7 +1,7 @@
 from flask_restx import Resource, Namespace
 from flask import request, jsonify
 from app.container import movie_service
-from app.dao.model.movies import Movies, MoviesSchema
+from app.dao.model.movies import  MoviesSchema
 
 movie_ns = Namespace('movies')
 
